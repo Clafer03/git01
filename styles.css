@@ -6,6 +6,9 @@
 
 body{
     font-family:'open sans';
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 .contenedor{
@@ -17,8 +20,11 @@ body{
 }
 
 .textos-header{
-    color: #34801e;
-    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
     text-align: center;
     margin-bottom: 60px; 
 }
@@ -34,14 +40,15 @@ body{
 
 header{
     width: 100%;
-    height: 600px;
-    background: #dd3e54;  
+    height: 600px;  
+    background: #BE93C5;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(133, 70%, 66%, 0.514), hsla(352, 70%, 55%, 0.514)), url(./imagenes/bacteriofago\ 4.jpg);  
+    background: -webkit-linear-gradient(to right, hsla(184, 44%, 64%, 0.322), hsla(292, 30%, 67%, 0.308)), url(./imagenes/bacteriofago\ 6.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(133, 70%, 66%, 0.514), hsla(352, 70%, 55%, 0.514)), url(./imagenes/bacteriofago\ 4.jpg);
+    background: linear-gradient(to right, hsla(184, 44%, 64%, 0.322), hsla(292, 30%, 67%, 0.308)), url(./imagenes/bacteriofago\ 6.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
+    
+    background-size: 1530px 800px;
     background-attachment: fixed;
     position: relative;
 }
@@ -57,3 +64,14 @@ nav > a{
     text-decoration: none;
     margin-right: 10px;
 }
+
+nav > a:hover{
+    text-decoration: underline  ;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
