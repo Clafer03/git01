@@ -37,9 +37,23 @@ header{
     height: 600px;
     background: #dd3e54;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  
+    background: -webkit-linear-gradient(to right, hsla(133, 70%, 66%, 0.514), hsla(352, 70%, 55%, 0.514)), url(./imagenes/bacteriofago\ 4.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(133, 70%, 66%, 0.514), hsla(352, 70%, 55%, 0.514)), url(./imagenes/bacteriofago\ 4.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0px;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
 }
