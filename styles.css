@@ -1,3 +1,17 @@
-H1{
-    border:5px solid rgb(164, 236, 197);
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
