@@ -15,3 +15,10 @@ body{
     margin: auto;
     overflow: hidden;
 }
+
+.textos-header{
+    color: #34801e;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 60px; 
+}
